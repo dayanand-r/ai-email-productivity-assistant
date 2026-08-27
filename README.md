@@ -313,26 +313,54 @@ style Review fill:#22c55e,color:#fff,stroke:#16a34a
 
 ### 🚀 Solution Development Journey
 
-#### 🔍 01. Problem Discovery
-Identified recurring quality issues, rework cycles, and gaps in communication consistency.
+```mermaid
+flowchart LR
 
-#### 💡 02. Solution Ideation
-Explored how AI could assist with response drafting, empathy, and contextual guidance.
+A["🔍 Problem"]
 
-#### 🏗️ 03. Solution Design
-Designed a no-code AI assistant with knowledge grounding, retrieval, and context analysis capabilities.
+-->
 
-#### ⚙️ 04. Prompt Engineering
-Created structured instructions for tone, empathy, completeness, and response quality.
+B["💡 Ideation"]
 
-#### 🧪 05. Testing & Refinement
-Iterated through multiple versions, identifying weaknesses and continuously improving outputs.
+-->
 
-#### 🚀 06. Deployment & Validation
-Integrated the solution into daily workflows and measured quality and productivity improvements.
+C["🏗️ Design"]
 
-#### 📈 07. Continuous Improvement
-Refined the assistant using feedback, edge cases, and real-world usage patterns.
+-->
+
+D["⚙️ Prompt Engineering"]
+
+-->
+
+E["🧪 Iteration"]
+
+-->
+
+F["🚀 Deployment"]
+
+-->
+
+G["📈 Improvement"]
+
+style A fill:#EF4444,color:#fff
+style B fill:#F59E0B,color:#fff
+style C fill:#8B5CF6,color:#fff
+style D fill:#3B82F6,color:#fff
+style E fill:#06B6D4,color:#fff
+style F fill:#10B981,color:#fff
+style G fill:#22C55E,color:#fff
+```
+
+#### Key Activities
+
+- **Problem Identification** → Analyzed recurring quality issues and approval rework.
+- **Solution Design** → Designed an AI-assisted workflow to improve drafting quality.
+- **Knowledge Integration** → Connected relevant reference documentation for contextual assistance.
+- **Prompt Engineering** → Created structured instructions for tone, empathy, and completeness.
+- **Testing & Refinement** → Iteratively improved outputs through multiple design cycles.
+- **Deployment & Validation** → Applied the solution in day-to-day workflows and measured impact.
+- **Continuous Improvement** → Refined performance using feedback and real-world scenarios.
+``
 
 ---
 
