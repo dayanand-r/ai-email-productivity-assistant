@@ -201,12 +201,53 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 
 ---
 
-## 🏗️ How It Works
+## 🏗️ Solution Lifecycle
 
-### High-Level Architecture
+```mermaid
+flowchart LR
 
-┌─────────────────────────────────────────────────────────────────────────┐ │ CUSTOMER EMAIL ARRIVES │ │ (Incoming email in the queue) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I PASTE EMAIL CONTENT INTO AI AGENT │ │ (Copy customer email text into the AI agent chat) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ AI AGENT GENERATES DRAFT TEXT │ │ │ │ ┌────────────────┐ ┌─────────────────┐ ┌──────────────────────┐ │ │ │ ANALYZE │ │ ENRICH │ │ GENERATE │ │ │ │ │ │ │ │ │ │ │ │ • Read email │ │ • Match customer│ │ • Draft professional │ │ │ │ • Detect intent│ │ situation to │ │ response text │ │ │ │ • Extract key │ │ relevant Knowledge Repository │ │ • Include relevant │ │ │ │ details │ │ general info │ │ general info from │ │ │ │ • Recognize │ │ • Surface right │ │ Knowledge Repository for this │ │ │ │ emotions │ │ product info │ │ situation │ │ │ │ • Summarize │ │ for scenario │ │ • Apply empathy │ │ │ │ thread │ │ • Flag priority │ │ • Ensure completeness│ │ │ │ │ │ items │ │ • Adapt tone │ │ │ └────────────────┘ └─────────────────┘ └──────────────────────┘ │ │ │ │ Powered by: LLM + Knowledge Repository Knowledge Base + Prompt Engineering │ │ │ │ ⚠️ Uses ONLY general product info from Knowledge Repository — no internal policy data │ │ ⚠️ OUTPUT: Plain text draft only — no email integration │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I COPY DRAFT TEXT & MOVE TO OUTLOOK (MANUAL) │ │ │ │ Copy AI text → Paste into Outlook → Apply fonts & formatting manually │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I REVIEW, EDIT & FINALIZE │ │ │ │ Read the formatted email → Check accuracy → Edit if needed │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ SUBMIT FOR Quality Review │ │ │ │ ✅ Approved → Sent to Customer │ │ ❌ Rejected → Revise (now rare!) │ └─────────────────────────────────────────────────────────────────────────┘
+A["📩 Input
 
+Customer Email"]
+
+-->
+
+B["🔍 Understanding
+
+Intent Detection
+Context Analysis
+Key Information"]
+
+-->
+
+C["📚 Knowledge Grounding
+
+Relevant Information
+Reference Knowledge Base"]
+
+-->
+
+D["✍️ Response Creation
+
+Draft Generation
+Adaptive Tone
+Complete Response"]
+
+-->
+
+E["👨‍💼 Human Review
+
+Validation
+Refinement
+Final Checks"]
+
+-->
+
+F["✅ Output
+
+Quality Approved
+Customer Response"]
+```
 
 ### How the Knowledge Repository Knowledge Integration Works (Conceptual)
 
