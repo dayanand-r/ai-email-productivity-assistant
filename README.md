@@ -79,9 +79,37 @@ In travel insurance operations, customer-facing professionals handle a high volu
 | ✍️ **Quality drafting** | Composing a complete, accurate, and professional response |
 | ✅ **Approval readiness** | Ensuring the draft passes Reviewer on the first attempt |
 
-### The Approval Workflow
-┌──────────────┐ ┌──────────────────┐ ┌─────────────────┐ │ Customer │ │ I Draft the │ │ Team Leader │ │ Sends Email │────▶│ Response │────▶│ Reviews Draft │ └──────────────┘ └──────────────────┘ └────────┬────────┘ │ ┌────────┴────────┐ │ │ ✅ Approved ❌ Rejected │ │ ▼ ▼ Sent to Sent back to me Customer for Corrections │ ▼ I Rewrite (Cycle Repeats)
+### 🚦 Before AI: My Approval Process 
 
+```mermaid
+flowchart LR
+
+A["📩 Customer Email"]
+
+-->
+
+B["✍️ My Draft"]
+
+-->
+
+C["🔍 Quality Review"]
+
+C -->|"✅ First Pass"| D["📧 Sent to Customer"]
+
+C -->|"❌ Corrections Required"| E["🔄 Rewrite Draft"]
+
+E --> B
+
+style A fill:#0EA5E9,color:#fff
+style B fill:#3B82F6,color:#fff
+style C fill:#8B5CF6,color:#fff
+style D fill:#22C55E,color:#fff
+style E fill:#EF4444,color:#fff
+```
+
+```markdown
+ > Frequent revision cycles highlighted the need for a smarter and more consistent drafting approach, ultimately inspiring the development of the AI Productivity Assistant.
+```
 
 ### My Pain Points as a New Joiner
 
