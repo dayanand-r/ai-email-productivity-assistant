@@ -249,10 +249,34 @@ Quality Approved
 Customer Response"]
 ```
 
-### How the Knowledge Repository Knowledge Integration Works (Conceptual)
+### 🧠 How Context & Knowledge Work Together
+### 📚 Knowledge Integration Workflow
 
-┌─────────────────────┐ ┌──────────────────────────────────┐ │ Customer Email │ │ Knowledge Repository (Product Disclosure │ │ │ │ Statement) Knowledge Base │ │ "I had to cancel │ │ │ │ my trip due to │ │ Contains general product info: │ │ a medical │ │ • Coverage types │ │ emergency..." │ │ • Claim procedures │ │ │ │ • General entitlements │ └──────────┬───────────┘ │ • Process overviews │ │ │ • General guidelines │ │ └──────────────┬───────────────────┘ │ │ └──────────┬────────────────────────┘ │ ▼ ┌──────────────────────┐ │ AI AGENT MATCHES │ │ │ │ Customer situation: │ │ Medical emergency │ │ trip cancellation │ │ + │ │ Relevant Knowledge Repository info: │ │ General cancellation │ │ coverage info, │ │ claim process │ │ overview │ └──────────┬───────────┘ │ ▼ ┌──────────────────────┐ │ DRAFT TEXT OUTPUT │ │ │ │ Empathetic response │ │ incorporating the │ │ right general info │ │ for THIS customer's │ │ specific situation │ └──────────────────────┘
+```mermaid
+flowchart TD
 
+A["📩 Customer Email"] 
+
+A --> B["🔍 Understand Situation"]
+
+B --> C["🎯 Detect Intent"]
+
+C --> D["📚 Retrieve Relevant Knowledge"]
+
+D --> E["🧠 Match Context + Knowledge"]
+
+E --> F["✍️ Generate Draft Response"]
+
+F --> G["✅ Human Review"]
+
+style A fill:#1e293b,color:#fff
+style B fill:#0ea5e9,color:#fff
+style C fill:#8b5cf6,color:#fff
+style D fill:#f59e0b,color:#fff
+style E fill:#10b981,color:#fff
+style F fill:#3b82f6,color:#fff
+style G fill:#22c55e,color:#fff
+```
 
 > 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the Knowledge Repository — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
 
