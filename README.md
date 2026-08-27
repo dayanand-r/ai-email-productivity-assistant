@@ -327,6 +327,14 @@ style Review fill:#22c55e,color:#fff,stroke:#16a34a
 ↓
 ⬛ Improve
 
+- **Problem** → Identified communication quality challenges.
+- **Ideation** → Explored AI-assisted drafting concepts.
+- **Design** → Defined architecture and knowledge integration.
+- **Build** → Configured the AI assistant using no-code tools.
+- **Test** → Conducted multiple refinement cycles.
+- **Deploy** → Applied within daily workflows.
+- **Improve** → Optimized continuously through feedback.
+
 ---
 
 ## 🚀 Future Enhancements
