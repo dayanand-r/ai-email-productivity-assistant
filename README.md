@@ -4,13 +4,15 @@
 # 📧 AI-Powered Communication Assistant
 A self-initiated AI productivity solution designed to improve communication quality, reduce rework, and accelerate response creation through prompt engineering, knowledge-grounded generation, and human-in-the-loop review.
 
-### From Struggling with Email Quality to Building an AI Solution That Fixed It
+### From Rework and Quality Gaps to an AI-Powered Communication Solution
 
-![AI Solution](https://img.shields.io/badge/AI-Solution%20Design-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-blue?style=for-the-badge&logo=probot&logoColor=white)
-![No Code](https://img.shields.io/badge/No--Code-AI%20Agent-orange?style=for-the-badge&logo=lightning&logoColor=white)
-![Insurance](https://img.shields.io/badge/Domain-Customer%20Service-teal?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Deployed%20%26%20Validated-success?style=for-the-badge)
+![AI Powered](https://img.shields.io/badge/AI-Powered%20Solution-or-the-badge
+
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-256e
+
+![Knowledge Grounded](https://img.shields.io/badge/Knowledge-Grounded-f59e0b?[Human Review](https://img.shields.io/badge/Human%20Review-10b981?style=for-the-badge)
+
+](https://img.shields.io/badge/Business-Impact-ef4444?style=for-the-badges://img.shields.io/badge/Deployed%20%26-Validated-22c55e?-badge
 
 *I was a new joiner making mistakes in customer emails and getting frequent rejections. Instead of just accepting it, I built an AI agent that transformed my email quality — without writing a single line of code.*
 
