@@ -256,29 +256,23 @@ Customer Response"]
 ```mermaid
 flowchart LR
 
-A["📩 Customer Email"] 
+Email["📩 Customer Email"]
 
-A --> B["🔍 Understand Situation"]
+KB["📚 Knowledge Base"]
 
-B --> C["🎯 Detect Intent"]
+Email --> AI["🤖 AI Assistant"]
 
-C --> D["📚 Retrieve Relevant Knowledge"]
+KB --> AI
 
-D --> E["🧠 Match Context + Knowledge"]
+AI --> Draft["✍️ Response Draft"]
 
-E --> F["✍️ Generate Draft Response"]
+Draft --> Review["✅ Human Review"]
 
-F --> G["✅ Human Review"]
-
-style A fill:#1e293b,color:#fff
-style B fill:#0ea5e9,color:#fff
-style C fill:#8b5cf6,color:#fff
-style D fill:#f59e0b,color:#fff
-style E fill:#10b981,color:#fff
-style F fill:#3b82f6,color:#fff
-style G fill:#22c55e,color:#fff
-```
-
+style Email fill:#0ea5e9,color:#fff,stroke:#0284c7
+style KB fill:#f59e0b,color:#fff,stroke:#d97706
+style AI fill:#8b5cf6,color:#fff,stroke:#7c3aed
+style Draft fill:#3b82f6,color:#fff,stroke:#2563eb
+style Review fill:#22c55e,color:#fff,stroke:#16a34a
 ---
 
 > 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the Knowledge Repository — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
