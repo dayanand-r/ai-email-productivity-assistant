@@ -273,6 +273,8 @@ style KB fill:#f59e0b,color:#fff,stroke:#d97706
 style AI fill:#8b5cf6,color:#fff,stroke:#7c3aed
 style Draft fill:#3b82f6,color:#fff,stroke:#2563eb
 style Review fill:#22c55e,color:#fff,stroke:#16a34a
+```
+
 ---
 
 > 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the Knowledge Repository — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
