@@ -107,9 +107,7 @@ style D fill:#22C55E,color:#fff
 style E fill:#EF4444,color:#fff
 ```
 
-```markdown
- > Frequent revision cycles highlighted the need for a smarter and more consistent drafting approach, ultimately inspiring the development of the AI Productivity Assistant.
-```
+> 💡 Frequent revision cycles highlighted the need for a smarter and more consistent drafting approach, ultimately inspiring the development of the AI Productivity Assistant.
 
 ### My Pain Points as a New Joiner
 
@@ -173,10 +171,16 @@ The AI agent acts as my personal email content drafting assistant that:
 | **Prompt Engineering** | Crafted detailed prompts that instruct the agent on tone, empathy, completeness, and how to match Knowledge Repository information to the customer's situation |
 | **Iterative Refinement** | Went through multiple rounds of testing, identifying issues, and improving the design |
 
+---
+
 ### The Iteration Journey
 
-Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant Knowledge Repository info well │ ▼ Identified issues, refined prompts │ Version 2 ──▶ Better empathy, but inconsistent at matching Knowledge Repository info to customer situations │ ▼ Tweaked configuration, improved knowledge base integration │ Version 3 ──▶ Better Knowledge Repository matching, but tone was sometimes off │ ▼ Fine-tuned model parameters and prompt structure │ Version 4 ──▶ ✅ Production-ready: Empathetic, complete, accurate Knowledge Repository matching, consistent
-
+| Version | What Happened | What I Did |
+|:-------:|:-------------|:-----------|
+| **V1** | Basic drafts — missed empathy, poor Knowledge Repository matching | Refined prompts, improved instructions |
+| **V2** | Better empathy — but inconsistent Knowledge Repository info surfacing | Improved knowledge base integration |
+| **V3** | Better Knowledge Repository matching — but tone was sometimes off | Fine-tuned model parameters and prompt structure |
+| **V4** ✅ | Production-ready — empathetic, complete, accurate, consistent | Deployed and started using daily |
 
 ---
 
@@ -387,7 +391,6 @@ style G fill:#22C55E,color:#fff
 - **Testing & Refinement** → Iteratively improved outputs through multiple design cycles.
 - **Deployment & Validation** → Applied the solution in day-to-day workflows and measured impact.
 - **Continuous Improvement** → Refined performance using feedback and real-world scenarios.
-``
 
 ---
 
