@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 📧 AI Email Productivity Assistant
+# 📧 AI-Powered Communication Assistant
 A self-initiated AI productivity solution designed to improve communication quality, reduce rework, and accelerate response creation through prompt engineering, knowledge-grounded generation, and human-in-the-loop review.
 
 ### From Struggling with Email Quality to Building an AI Solution That Fixed It
