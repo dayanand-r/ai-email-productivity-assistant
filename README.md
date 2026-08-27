@@ -350,7 +350,6 @@ style E fill:#06B6D4,color:#fff
 style F fill:#10B981,color:#fff
 style G fill:#22C55E,color:#fff
 ```
-
 #### Key Activities
 
 - **Problem Identification** → Analyzed recurring quality issues and approval rework.
