@@ -8,7 +8,7 @@
 ![AI Solution](https://img.shields.io/badge/AI-Solution%20Design-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![No Code](https://img.shields.io/badge/No--Code-AI%20Agent-orange?style=for-the-badge&logo=lightning&logoColor=white)
-![Insurance](https://img.shields.io/badge/Domain-Customer%20Operations-teal?style=for-the-badge)
+![Insurance](https://img.shields.io/badge/Domain-Customer%20Service-teal?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Deployed%20%26%20Validated-success?style=for-the-badge)
 
 *I was a new joiner making mistakes in customer emails and getting frequent rejections. Instead of just accepting it, I built an AI agent that transformed my email quality — without writing a single line of code.*
@@ -25,7 +25,7 @@
 
 ## 🙋 My Story
 
-When I joined the travel insurance operations team, I was responsible for handling customer email communications. Every email I drafted had to go through a **team leader approval process** before being sent to the customer.
+When I joined the customer operations team, I was responsible for handling customer email communications. Every email I drafted had to go through a **team leader approval process** before being sent to the customer.
 
 ### The Honest Truth: I Was Struggling (This Agent Was Built and Used Only by Me)
 
@@ -72,7 +72,7 @@ In travel insurance operations, customer-facing professionals handle a high volu
 |:------------|:----------|
 | 🧐 **Careful comprehension** | Understanding the customer's situation, emotions, and specific needs |
 | 🎯 **Intent identification** | Is this a claim inquiry? A complaint? A policy question? A follow-up? |
-| 🔑 **Situation-based information** | Identifying which general information from the Product Disclosure Statement (PDS) is relevant to the customer's specific situation |
+| 🔑 **Situation-based information** | Identifying which general information from the Reference Documentation (Knowledge Repository) is relevant to the customer's specific situation |
 | 💬 **Empathetic communication** | Responding with appropriate tone, empathy, and professionalism |
 | 📚 **Product knowledge** | Knowing which general product information applies to the customer's scenario |
 | ✍️ **Quality drafting** | Composing a complete, accurate, and professional response |
@@ -87,7 +87,7 @@ In travel insurance operations, customer-facing professionals handle a high volu
 - 📝 Drafting emails took me significantly longer than experienced colleagues
 - 🔄 High rejection rate meant double or triple the work per email
 - 😟 Missed empathy cues — I focused on facts but forgot the human element
-- 📋 Didn't always know which general information from the PDS was relevant to the customer's specific situation
+- 📋 Didn't always know which general information from the Knowledge Repository was relevant to the customer's specific situation
 - 🧠 Struggled to identify the right general information to provide based on the customer's scenario
 - ⏱️ All of this impacted my productivity, metrics, and confidence
 
@@ -101,9 +101,9 @@ I designed and deployed a **custom AI agent** on the enterprise generative AI pl
 
 > 🔑 **Important — what the agent does:**
 > - Analyzes the customer's email to understand their situation
-> - Picks up **relevant general information from the PDS** (Product Disclosure Statement) that applies to the customer's specific scenario
+> - Picks up **relevant general information from the Knowledge Repository** (Reference Documentation) that applies to the customer's specific scenario
 > - Drafts response content using that relevant general information
-> - It does **NOT** access or expose internal policy details, confidential data, or anything beyond publicly available product information from the PDS
+> - It does **NOT** access or expose internal policy details, confidential data, or anything beyond publicly available product information from the Knowledge Repository
 >
 > 🔑 **Important — what the agent does NOT do:**
 > - Does NOT connect to any email client
@@ -126,7 +126,7 @@ The AI agent acts as my personal email content drafting assistant that:
 
 1. **Reads and analyzes** the incoming customer email I provide to it
 2. **Identifies** the customer's intent, emotions, and specific situation
-3. **Surfaces** relevant general information from the PDS based on the customer's scenario
+3. **Surfaces** relevant general information from the Knowledge Repository based on the customer's scenario
 4. **Extracts** key details from the email (names, dates, travel details, specific requests)
 5. **Generates** a professional, empathetic, and complete text draft incorporating the right general information
 6. **I then copy** the draft text into Outlook, manually format it, review and edit, then submit for approval
@@ -136,17 +136,17 @@ The AI agent acts as my personal email content drafting assistant that:
 | Design Aspect | My Approach |
 |:--------------|:------------|
 | **Core Capability** | Designed the agent to analyze customer emails and generate draft text content |
-| **PDS Knowledge Base** | Connected the Product Disclosure Statement (PDS) as a knowledge source so the agent could identify and surface relevant general product information based on the customer's situation |
+| **Knowledge Repository Knowledge Base** | Connected the Reference Documentation (Knowledge Repository) as a knowledge source so the agent could identify and surface relevant general product information based on the customer's situation |
 | **Information Retrieval** | Enabled real-time information retrieval to pull the right general information for each customer scenario |
-| **Document Reading** | Configured document reading capabilities for referencing the PDS and related general product documentation |
+| **Document Reading** | Configured document reading capabilities for referencing the Knowledge Repository and related general product documentation |
 | **Working Memory** | Set up extended conversation context so the agent could handle complex, multi-part email threads |
 | **Model Tuning** | Optimized the AI model parameters to prioritize accuracy and consistency over creativity |
-| **Prompt Engineering** | Crafted detailed prompts that instruct the agent on tone, empathy, completeness, and how to match PDS information to the customer's situation |
+| **Prompt Engineering** | Crafted detailed prompts that instruct the agent on tone, empathy, completeness, and how to match Knowledge Repository information to the customer's situation |
 | **Iterative Refinement** | Went through multiple rounds of testing, identifying issues, and improving the design |
 
 ### The Iteration Journey
 
-Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant PDS info well │ ▼ Identified issues, refined prompts │ Version 2 ──▶ Better empathy, but inconsistent at matching PDS info to customer situations │ ▼ Tweaked configuration, improved knowledge base integration │ Version 3 ──▶ Better PDS matching, but tone was sometimes off │ ▼ Fine-tuned model parameters and prompt structure │ Version 4 ──▶ ✅ Production-ready: Empathetic, complete, accurate PDS matching, consistent
+Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant Knowledge Repository info well │ ▼ Identified issues, refined prompts │ Version 2 ──▶ Better empathy, but inconsistent at matching Knowledge Repository info to customer situations │ ▼ Tweaked configuration, improved knowledge base integration │ Version 3 ──▶ Better Knowledge Repository matching, but tone was sometimes off │ ▼ Fine-tuned model parameters and prompt structure │ Version 4 ──▶ ✅ Production-ready: Empathetic, complete, accurate Knowledge Repository matching, consistent
 
 
 ---
@@ -158,7 +158,7 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 | 📨 **Email Analysis** | Deeply understands incoming email content, context, and customer situation | Ensures nothing is missed or misunderstood |
 | 🎯 **Intent Detection** | Identifies customer purpose: inquiry, complaint, claim, follow-up | Enables appropriately targeted responses |
 | 💙 **Empathy Recognition** | Detects customer emotions and adjusts tone accordingly | Addresses the #1 issue I was struggling with |
-| 📚 **PDS Information Surfacing** | Identifies which general information from the Product Disclosure Statement is relevant to the customer's specific situation | Ensures customers receive the right general information for their scenario |
+| 📚 **Knowledge Repository Information Surfacing** | Identifies which general information from the Reference Documentation is relevant to the customer's specific situation | Ensures customers receive the right general information for their scenario |
 | 🔑 **Key Detail Extraction** | Pulls out names, dates, travel details, specific requests from the email | Ensures every customer question is addressed |
 | 📝 **Thread Summarization** | Condenses long email conversations into clear summaries | Helps understand full history quickly |
 | ⚡ **Priority Highlighting** | Flags urgent items and critical points needing attention | Prevents important details from being overlooked |
@@ -177,7 +177,7 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 | ✍️ **Content Drafting Speed** | Slow — took significant time per email | Much faster — AI generates draft text in seconds, I then format and finalize in Outlook |
 | ❌ **Rejection Rate** | High — frequent "resend for approval" from team leaders | Dramatically reduced — drafts approved on first attempt |
 | 💙 **Empathy in Emails** | Often lacking — responses felt impersonal | Consistently empathetic and customer-friendly |
-| 📚 **PDS Info Accuracy** | Sometimes provided wrong or incomplete general information for the customer's situation | AI correctly identifies and surfaces relevant PDS information for each scenario |
+| 📚 **Knowledge Repository Info Accuracy** | Sometimes provided wrong or incomplete general information for the customer's situation | AI correctly identifies and surfaces relevant Knowledge Repository information for each scenario |
 | 📋 **Completeness** | Frequently missed information the customer needed | Comprehensive — all customer points addressed with relevant general info |
 | 📏 **Consistency** | Variable quality depending on workload and fatigue | Reliable, consistent quality across all emails |
 | 🔄 **Rework Cycles** | Multiple revision rounds per email | Minimal — first drafts are near-final quality |
@@ -188,7 +188,7 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 
 > ✅ **Rejection rate dropped dramatically** — team leaders approved drafts on first submission far more consistently
 >
-> ✅ **Right information, right situation** — the AI accurately surfaces relevant general PDS information matching the customer's specific scenario
+> ✅ **Right information, right situation** — the AI accurately surfaces relevant general Knowledge Repository information matching the customer's specific scenario
 >
 > ✅ **Email quality improved measurably** — empathy, completeness, and accuracy all increased
 >
@@ -204,15 +204,15 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 
 ### High-Level Architecture
 
-┌─────────────────────────────────────────────────────────────────────────┐ │ CUSTOMER EMAIL ARRIVES │ │ (Incoming email in the queue) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I PASTE EMAIL CONTENT INTO AI AGENT │ │ (Copy customer email text into the AI agent chat) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ AI AGENT GENERATES DRAFT TEXT │ │ │ │ ┌────────────────┐ ┌─────────────────┐ ┌──────────────────────┐ │ │ │ ANALYZE │ │ ENRICH │ │ GENERATE │ │ │ │ │ │ │ │ │ │ │ │ • Read email │ │ • Match customer│ │ • Draft professional │ │ │ │ • Detect intent│ │ situation to │ │ response text │ │ │ │ • Extract key │ │ relevant PDS │ │ • Include relevant │ │ │ │ details │ │ general info │ │ general info from │ │ │ │ • Recognize │ │ • Surface right │ │ PDS for this │ │ │ │ emotions │ │ product info │ │ situation │ │ │ │ • Summarize │ │ for scenario │ │ • Apply empathy │ │ │ │ thread │ │ • Flag priority │ │ • Ensure completeness│ │ │ │ │ │ items │ │ • Adapt tone │ │ │ └────────────────┘ └─────────────────┘ └──────────────────────┘ │ │ │ │ Powered by: LLM + PDS Knowledge Base + Prompt Engineering │ │ │ │ ⚠️ Uses ONLY general product info from PDS — no internal policy data │ │ ⚠️ OUTPUT: Plain text draft only — no email integration │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I COPY DRAFT TEXT & MOVE TO OUTLOOK (MANUAL) │ │ │ │ Copy AI text → Paste into Outlook → Apply fonts & formatting manually │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I REVIEW, EDIT & FINALIZE │ │ │ │ Read the formatted email → Check accuracy → Edit if needed │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ SUBMIT FOR TEAM LEADER APPROVAL │ │ │ │ ✅ Approved → Sent to Customer │ │ ❌ Rejected → Revise (now rare!) │ └─────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐ │ CUSTOMER EMAIL ARRIVES │ │ (Incoming email in the queue) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I PASTE EMAIL CONTENT INTO AI AGENT │ │ (Copy customer email text into the AI agent chat) │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ AI AGENT GENERATES DRAFT TEXT │ │ │ │ ┌────────────────┐ ┌─────────────────┐ ┌──────────────────────┐ │ │ │ ANALYZE │ │ ENRICH │ │ GENERATE │ │ │ │ │ │ │ │ │ │ │ │ • Read email │ │ • Match customer│ │ • Draft professional │ │ │ │ • Detect intent│ │ situation to │ │ response text │ │ │ │ • Extract key │ │ relevant Knowledge Repository │ │ • Include relevant │ │ │ │ details │ │ general info │ │ general info from │ │ │ │ • Recognize │ │ • Surface right │ │ Knowledge Repository for this │ │ │ │ emotions │ │ product info │ │ situation │ │ │ │ • Summarize │ │ for scenario │ │ • Apply empathy │ │ │ │ thread │ │ • Flag priority │ │ • Ensure completeness│ │ │ │ │ │ items │ │ • Adapt tone │ │ │ └────────────────┘ └─────────────────┘ └──────────────────────┘ │ │ │ │ Powered by: LLM + Knowledge Repository Knowledge Base + Prompt Engineering │ │ │ │ ⚠️ Uses ONLY general product info from Knowledge Repository — no internal policy data │ │ ⚠️ OUTPUT: Plain text draft only — no email integration │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I COPY DRAFT TEXT & MOVE TO OUTLOOK (MANUAL) │ │ │ │ Copy AI text → Paste into Outlook → Apply fonts & formatting manually │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ I REVIEW, EDIT & FINALIZE │ │ │ │ Read the formatted email → Check accuracy → Edit if needed │ └────────────────────────────────┬────────────────────────────────────────┘ │ ▼ ┌─────────────────────────────────────────────────────────────────────────┐ │ SUBMIT FOR TEAM LEADER APPROVAL │ │ │ │ ✅ Approved → Sent to Customer │ │ ❌ Rejected → Revise (now rare!) │ └─────────────────────────────────────────────────────────────────────────┘
 
 
-### How the PDS Knowledge Integration Works (Conceptual)
+### How the Knowledge Repository Knowledge Integration Works (Conceptual)
 
-┌─────────────────────┐ ┌──────────────────────────────────┐ │ Customer Email │ │ PDS (Product Disclosure │ │ │ │ Statement) Knowledge Base │ │ "I had to cancel │ │ │ │ my trip due to │ │ Contains general product info: │ │ a medical │ │ • Coverage types │ │ emergency..." │ │ • Claim procedures │ │ │ │ • General entitlements │ └──────────┬───────────┘ │ • Process overviews │ │ │ • General guidelines │ │ └──────────────┬───────────────────┘ │ │ └──────────┬────────────────────────┘ │ ▼ ┌──────────────────────┐ │ AI AGENT MATCHES │ │ │ │ Customer situation: │ │ Medical emergency │ │ trip cancellation │ │ + │ │ Relevant PDS info: │ │ General cancellation │ │ coverage info, │ │ claim process │ │ overview │ └──────────┬───────────┘ │ ▼ ┌──────────────────────┐ │ DRAFT TEXT OUTPUT │ │ │ │ Empathetic response │ │ incorporating the │ │ right general info │ │ for THIS customer's │ │ specific situation │ └──────────────────────┘
+┌─────────────────────┐ ┌──────────────────────────────────┐ │ Customer Email │ │ Knowledge Repository (Product Disclosure │ │ │ │ Statement) Knowledge Base │ │ "I had to cancel │ │ │ │ my trip due to │ │ Contains general product info: │ │ a medical │ │ • Coverage types │ │ emergency..." │ │ • Claim procedures │ │ │ │ • General entitlements │ └──────────┬───────────┘ │ • Process overviews │ │ │ • General guidelines │ │ └──────────────┬───────────────────┘ │ │ └──────────┬────────────────────────┘ │ ▼ ┌──────────────────────┐ │ AI AGENT MATCHES │ │ │ │ Customer situation: │ │ Medical emergency │ │ trip cancellation │ │ + │ │ Relevant Knowledge Repository info: │ │ General cancellation │ │ coverage info, │ │ claim process │ │ overview │ └──────────┬───────────┘ │ ▼ ┌──────────────────────┐ │ DRAFT TEXT OUTPUT │ │ │ │ Empathetic response │ │ incorporating the │ │ right general info │ │ for THIS customer's │ │ specific situation │ └──────────────────────┘
 
 
-> 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the PDS — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
+> 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the Knowledge Repository — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
 
 ### Design Principles
 
@@ -220,10 +220,10 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 |:----------|:-----------------|
 | 🔒 **Human-in-the-Loop** | AI only generates text — I manually copy, format in Outlook, review, and submit |
 | 🎯 **Accuracy Over Creativity** | Tuned model parameters to prioritize factual accuracy and consistency |
-| 📚 **PDS-Grounded Responses** | Connected the PDS as knowledge base so responses contain the right general product information for each situation |
+| 📚 **Knowledge Repository-Grounded Responses** | Connected the Knowledge Repository as knowledge base so responses contain the right general product information for each situation |
 | 💙 **Empathy by Design** | Prompt engineering explicitly instructs the AI to recognize and respond to customer emotions |
 | 📝 **Content Only** | The AI is strictly a text drafting tool — no email client integration, no auto-sending |
-| 🔒 **No Confidential Data** | Agent only accesses general product info from PDS — no internal policies, no restricted data |
+| 🔒 **No Confidential Data** | Agent only accesses general product info from Knowledge Repository — no internal policies, no restricted data |
 | 🔄 **Iterative Improvement** | Continuously refined based on what worked and what didn't |
 | 🛡️ **Responsible AI** | No customer data stored, human oversight mandatory, ethical usage throughout |
 
@@ -233,10 +233,10 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 
 | Skill | How I Applied It |
 |:------|:-----------------|
-| ⚙️ **Prompt Engineering** | Designed detailed, structured prompts that control tone, empathy, accuracy, completeness, and PDS information matching |
+| ⚙️ **Prompt Engineering** | Designed detailed, structured prompts that control tone, empathy, accuracy, completeness, and Knowledge Repository information matching |
 | 🤖 **AI Agent Design** | Configured an end-to-end AI agent using no-code platform capabilities |
 | 🧠 **Generative AI** | Leveraged large language model capabilities for text analysis and generation |
-| 📚 **Knowledge Base Design** | Integrated the PDS as a knowledge source for situation-based information retrieval |
+| 📚 **Knowledge Base Design** | Integrated the Knowledge Repository as a knowledge source for situation-based information retrieval |
 | 📊 **Business Problem Solving** | Identified a real operational challenge and designed a practical solution |
 | 💡 **Innovation & Initiative** | Built the solution proactively — nobody asked me to do this |
 | 🔧 **Model Configuration** | Optimized AI model parameters for production-grade accuracy and reliability |
@@ -250,7 +250,7 @@ Version 1 ──▶ Basic drafts, but missed empathy and didn't surface relevant
 
 ### My Step-by-Step Approach
 
-Step 1: IDENTIFY THE PROBLEM │ Recognized that my email rejection rate was too high │ Analyzed the common reasons: empathy, completeness, wrong/missing │ general info for the customer's situation │ ▼ Step 2: ENVISION THE SOLUTION │ Realized an AI agent could help draft better email content │ Key insight: if the agent could match customer situations to │ relevant PDS information, my drafts would be more accurate │ ▼ Step 3: DESIGN THE AGENT │ Used the enterprise AI platform's no-code agent builder │ Configured capabilities: PDS knowledge base, information │ retrieval, document reading, extended conversation memory │ ▼ Step 4: CRAFT THE PROMPTS │ Designed prompts that instruct the AI on: │ - How to analyze customer emails and understand their situation │ - How to detect intent and emotions │ - How to match the situation to relevant PDS general information │ - How to write empathetic, complete response text │ - How to structure professional drafts │ ▼ Step 5: TEST & ITERATE │ Version 1: Basic but lacking empathy, poor PDS matching → refined prompts │ Version 2: Better empathy but inconsistent info surfacing → improved KB │ Version 3: Better matching but tone issues → fine-tuned parameters │ Version 4: Production-ready ✅ │ ▼ Step 6: DEPLOY & VALIDATE │ Started using the agent for my daily email drafting │ Workflow: AI drafts text → I copy to Outlook → format → review → submit │ Measured impact: rejection rate, speed, quality │ ▼ Step 7: CONTINUOUS IMPROVEMENT Kept refining based on edge cases and feedback
+Step 1: IDENTIFY THE PROBLEM │ Recognized that my email rejection rate was too high │ Analyzed the common reasons: empathy, completeness, wrong/missing │ general info for the customer's situation │ ▼ Step 2: ENVISION THE SOLUTION │ Realized an AI agent could help draft better email content │ Key insight: if the agent could match customer situations to │ relevant Knowledge Repository information, my drafts would be more accurate │ ▼ Step 3: DESIGN THE AGENT │ Used the enterprise AI platform's no-code agent builder │ Configured capabilities: Knowledge Repository knowledge base, information │ retrieval, document reading, extended conversation memory │ ▼ Step 4: CRAFT THE PROMPTS │ Designed prompts that instruct the AI on: │ - How to analyze customer emails and understand their situation │ - How to detect intent and emotions │ - How to match the situation to relevant Knowledge Repository general information │ - How to write empathetic, complete response text │ - How to structure professional drafts │ ▼ Step 5: TEST & ITERATE │ Version 1: Basic but lacking empathy, poor Knowledge Repository matching → refined prompts │ Version 2: Better empathy but inconsistent info surfacing → improved KB │ Version 3: Better matching but tone issues → fine-tuned parameters │ Version 4: Production-ready ✅ │ ▼ Step 6: DEPLOY & VALIDATE │ Started using the agent for my daily email drafting │ Workflow: AI drafts text → I copy to Outlook → format → review → submit │ Measured impact: rejection rate, speed, quality │ ▼ Step 7: CONTINUOUS IMPROVEMENT Kept refining based on edge cases and feedback
 
 
 ---
@@ -303,15 +303,25 @@ ai-email-productivity-assistant/ │ ├── 📄 README.md # Project case stu
 - 🙋 **100% self-initiated** — Nobody asked me to build this; I identified the need and took action
 - 👤 **Personal use tool** — Built by me, for me, to solve my own productivity challenge
 - 🚫 **No coding required** — Designed entirely through prompt engineering and no-code AI configuration
-- 📚 **Smart PDS matching** — AI surfaces the right general product information for each customer's specific situation
+- 📚 **Smart Knowledge Repository matching** — AI surfaces the right general product information for each customer's specific situation
 - 📉 **Rejection rate transformed** — From frequent "resend for approval" to consistent first-attempt approvals
 - ⚙️ **Prompt engineering mastery** — The quality of the solution was driven by carefully crafted prompts
 - 🔄 **Real iteration story** — Went through multiple versions, debugging and improving each time
 - 📈 **Measurable impact** — Tangible improvements in speed, quality, consistency, and productivity
 - 📝 **Content drafting focus** — AI generates text only; I handle copy-paste, formatting, and final review manually
-- 🔒 **No confidential data** — Agent uses only general product information from PDS, no internal policy details
+- 🔒 **No confidential data** — Agent uses only general product information from Knowledge Repository, no internal policy details
 - 🔒 **Responsible AI** — Human oversight, data privacy, and ethical principles built in from day one
 - 💡 **Growth mindset** — Turned a personal weakness into a strength through innovation
+
+---
+
+## Why This Project Matters
+
+This project demonstrates that impactful innovation does not always require software engineering expertise.
+
+By combining business knowledge, prompt engineering, AI agent configuration, and iterative experimentation, a real operational challenge was transformed into a practical productivity solution.
+
+The project highlights how employees can leverage enterprise AI responsibly to improve quality, consistency, and efficiency in everyday work.
 
 ---
 
@@ -325,7 +335,7 @@ ai-email-productivity-assistant/ │ ├── 📄 README.md # Project case stu
 
 4. **AI should amplify humans, not replace them.** The agent drafts the content, but I still copy it to Outlook, format it, review it, and make every final decision.
 
-5. **Knowledge integration is key.** Connecting the PDS as a knowledge source was a game-changer — the agent could match customer situations to the right general information, which was exactly what I was struggling with manually.
+5. **Knowledge integration is key.** Connecting the Knowledge Repository as a knowledge source was a game-changer — the agent could match customer situations to the right general information, which was exactly what I was struggling with manually.
 
 6. **Initiative matters.** Nobody asked me to build this. Recognizing a problem and solving it proactively is a skill in itself.
 
