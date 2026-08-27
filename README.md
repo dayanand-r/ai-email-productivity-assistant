@@ -408,28 +408,63 @@ style G fill:#22C55E,color:#fff
 
 ## 📁 Repository Structure
 
-ai-email-productivity-assistant/ │ ├── 📄 README.md # Project case study (this file) ├── 📄 LICENSE # MIT License ├── 📄 CONTRIBUTING.md # Contribution guidelines ├── 📄 CHANGELOG.md # Version history │ ├── 📂 docs/ # Detailed documentation │ ├── solution-design.md # How the solution was designed │ ├── methodology.md # Step-by-step methodology │ ├── prompt-engineering-approach.md # Prompt engineering principles applied │ ├── business-case.md # Problem analysis and business value │ ├── iteration-journey.md # How I iterated through versions │ └── lessons-learned.md # Key takeaways and insights │ ├── 📂 architecture/ # Architecture documentation │ ├── high-level-architecture.md # System overview │ ├── workflow-design.md # End-to-end workflow documentation │ └── design-decisions.md # Why I made the choices I did │ ├── 📂 screenshots/ # Visual documentation │ ├── workflow-overview.png # End-to-end workflow visual │ ├── before-after-comparison.png # Impact comparison visual │ └── architecture-diagram.png # Architecture visual │ └── 📂 resources/ # Additional resources ├── presentation-summary.md # High-level project summary └── faq.md # Frequently asked questions
+```text
+📦 AI Email Productivity Assistant
+ ┣ 📄 Project Overview
+ ┣ 📚 Documentation
+ ┃ ┣ Solution Design
+ ┃ ┣ Methodology
+ ┃ ┣ Prompt Engineering Approach
+ ┃ ┣ Business Case
+ ┃ ┗ Lessons Learned
+ ┣ 🏗️ Architecture
+ ┃ ┣ High-Level Architecture
+ ┃ ┣ Workflow Design
+ ┃ ┗ Design Decisions
+ ┣ 🖼️ Visual Assets
+ ┃ ┣ Workflow Overview
+ ┃ ┣ Impact Comparison
+ ┃ ┗ Architecture Diagram
+ ┗ 📦 Resources
+   ┣ Presentation Summary
+   ┗ FAQ
 
-
+```
 ---
 
-## 📸 Screenshots & Visuals
+## 🔒 Repository Scope
 
-> 🖼️ *Visual documentation of the solution concept and impact.*
+This repository is intentionally presented as a portfolio case study rather than a traditional source code repository.
 
-### End-to-End Workflow
-![Workflow Overview](screenshots/workflow-overview.png)
-*The complete flow from customer email to approved response*
+The focus is on documenting the problem-solving approach, AI solution design, and business impact while maintaining confidentiality and responsible disclosure practices.
 
-### Before vs. After Impact
-![Before After](screenshots/before-after-comparison.png)
-*Visual comparison of email quality and metrics before and after the AI agent*
+### ✅ Included
 
-### Architecture Overview
-![Architecture](screenshots/architecture-diagram.png)
-*High-level view of the AI agent architecture and components*
+- Project Story & Background
+- Problem Analysis
+- Solution Design
+- AI Agent Architecture
+- Prompt Engineering Approach
+- Methodology
+- Business Impact
+- Lessons Learned
+- Responsible AI Practices
 
-> 📌 **Note:** Replace with actual visuals before publishing. Ensure all images are free of company names, platform identifiers, customer data, and internal system details.
+### ❌ Not Included
+
+- Proprietary Platforms
+- Internal Systems
+- Production Prompts
+- Customer Data
+- Knowledge Assets
+- Source Code
+- Screenshots
+- Confidential Business Information
+- Operational Procedures
+
+### 📌 Purpose
+
+This repository showcases how a real operational challenge was identified, analyzed, and addressed through AI-driven problem solving, prompt engineering, and iterative design while respecting privacy, security, and confidentiality requirements.
 
 ---
 
