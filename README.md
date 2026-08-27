@@ -311,29 +311,28 @@ style Review fill:#22c55e,color:#fff,stroke:#16a34a
 
 ---
 
-### 🎯 Methodology Framework
+### 🚀 Solution Development Journey
 
-🟥 Problem
-↓
-🟧 Ideation
-↓
-🟨 Design
-↓
-🟩 Build
-↓
-🟦 Test
-↓
-🟪 Deploy
-↓
-⬛ Improve
+#### 🔍 01. Problem Discovery
+Identified recurring quality issues, rework cycles, and gaps in communication consistency.
 
-- **Problem** → Identified communication quality challenges.
-- **Ideation** → Explored AI-assisted drafting concepts.
-- **Design** → Defined architecture and knowledge integration.
-- **Build** → Configured the AI assistant using no-code tools.
-- **Test** → Conducted multiple refinement cycles.
-- **Deploy** → Applied within daily workflows.
-- **Improve** → Optimized continuously through feedback.
+#### 💡 02. Solution Ideation
+Explored how AI could assist with response drafting, empathy, and contextual guidance.
+
+#### 🏗️ 03. Solution Design
+Designed a no-code AI assistant with knowledge grounding, retrieval, and context analysis capabilities.
+
+#### ⚙️ 04. Prompt Engineering
+Created structured instructions for tone, empathy, completeness, and response quality.
+
+#### 🧪 05. Testing & Refinement
+Iterated through multiple versions, identifying weaknesses and continuously improving outputs.
+
+#### 🚀 06. Deployment & Validation
+Integrated the solution into daily workflows and measured quality and productivity improvements.
+
+#### 📈 07. Continuous Improvement
+Refined the assistant using feedback, edge cases, and real-world usage patterns.
 
 ---
 
