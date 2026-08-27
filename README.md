@@ -311,12 +311,21 @@ style Review fill:#22c55e,color:#fff,stroke:#16a34a
 
 ---
 
-## 🔧 Methodology
+### 🎯 Methodology Framework
 
-### My Step-by-Step Approach
-
-Step 1: IDENTIFY THE PROBLEM │ Recognized that my email rejection rate was too high │ Analyzed the common reasons: empathy, completeness, wrong/missing │ general info for the customer's situation │ ▼ Step 2: ENVISION THE SOLUTION │ Realized an AI agent could help draft better email content │ Key insight: if the agent could match customer situations to │ relevant Knowledge Repository information, my drafts would be more accurate │ ▼ Step 3: DESIGN THE AGENT │ Used the enterprise AI platform's no-code agent builder │ Configured capabilities: Knowledge Repository knowledge base, information │ retrieval, document reading, extended conversation memory │ ▼ Step 4: CRAFT THE PROMPTS │ Designed prompts that instruct the AI on: │ - How to analyze customer emails and understand their situation │ - How to detect intent and emotions │ - How to match the situation to relevant Knowledge Repository general information │ - How to write empathetic, complete response text │ - How to structure professional drafts │ ▼ Step 5: TEST & ITERATE │ Version 1: Basic but lacking empathy, poor Knowledge Repository matching → refined prompts │ Version 2: Better empathy but inconsistent info surfacing → improved KB │ Version 3: Better matching but tone issues → fine-tuned parameters │ Version 4: Production-ready ✅ │ ▼ Step 6: DEPLOY & VALIDATE │ Started using the agent for my daily email drafting │ Workflow: AI drafts text → I copy to Outlook → format → review → submit │ Measured impact: rejection rate, speed, quality │ ▼ Step 7: CONTINUOUS IMPROVEMENT Kept refining based on edge cases and feedback
-
+🟥 Problem
+↓
+🟧 Ideation
+↓
+🟨 Design
+↓
+🟩 Build
+↓
+🟦 Test
+↓
+🟪 Deploy
+↓
+⬛ Improve
 
 ---
 
