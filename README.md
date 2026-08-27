@@ -249,6 +249,8 @@ Quality Approved
 Customer Response"]
 ```
 
+---
+
 ### 🧠 How Context & Knowledge Work Together
 
 ```mermaid
@@ -276,6 +278,8 @@ style E fill:#10b981,color:#fff
 style F fill:#3b82f6,color:#fff
 style G fill:#22c55e,color:#fff
 ```
+
+---
 
 > 📌 **Key Point:** The AI does NOT access internal policy details, confidential rules, or restricted information. It only uses general product information from the Knowledge Repository — the same information that is available to customers — and intelligently matches it to each customer's specific situation.
 
