@@ -8,7 +8,7 @@
 ![AI Solution](https://img.shields.io/badge/AI-Solution%20Design-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-blue?style=for-the-badge&logo=probot&logoColor=white)
 ![No Code](https://img.shields.io/badge/No--Code-AI%20Agent-orange?style=for-the-badge&logo=lightning&logoColor=white)
-![Insurance](https://img.shields.io/badge/Domain-Travel%20Insurance-teal?style=for-the-badge)
+![Insurance](https://img.shields.io/badge/Domain-Customer%20Operations-teal?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Deployed%20%26%20Validated-success?style=for-the-badge)
 
 *I was a new joiner making mistakes in customer emails and getting frequent rejections. Instead of just accepting it, I built an AI agent that transformed my email quality — without writing a single line of code.*
