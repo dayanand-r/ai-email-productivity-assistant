@@ -250,10 +250,9 @@ Customer Response"]
 ```
 
 ### 🧠 How Context & Knowledge Work Together
-### 📚 Knowledge Integration Workflow
 
 ```mermaid
-flowchart TD
+flowchart LR
 
 A["📩 Customer Email"] 
 
